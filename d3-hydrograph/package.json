@@ -57,6 +57,7 @@
     "test": "../node_modules/.bin/mocha 'test/**/*-test.js' && eslint src test",
     "prepublishOnly": "rm -rf dist && yarn test && rollup -c",
     "postpublish": "",
+    "build": "rollup -c",
     "storybook": "../node_modules/.bin/start-storybook -p 6006",
     "build-storybook": "../node_modules/.bin/build-storybook"
   },
