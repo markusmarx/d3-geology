@@ -1,7 +1,7 @@
 {
    "private": true,
    "name": "d3-geology",
-   "workspaces": ["pattern", "d3-hydrograph"],
+   "workspaces": ["pattern", "d3-hydrograph", "website"],
    "scripts": {
    } 
 }
